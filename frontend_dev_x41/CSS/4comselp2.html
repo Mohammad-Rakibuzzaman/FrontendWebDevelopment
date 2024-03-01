@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+    <!-- Combined selectors. c. adjacent sibling selector d.General sibling selecter  -->
+
+    <style>
+        /* h1 + h2 {
+            color: red;
+        } */
+        h1 ~ h2 {
+            color: red;
+        }
+
+    </style>
+    
+</head>
+
+<body>
+    
+
+    <div>
+        <h1> I am inside of div</h1>
+        <h1> Zaima loves to hangout with me</h1>
+        <section>
+            <h1>hey ratullll there is also zaaaaaaaaiiiiimaaa</h1>
+        </section>
+    </div>
+
+
+    <!-- here adjacent selector is selecting only first attr -->
+
+    <h1>This is first H1 Tag </h1>
+    <h2 class= "redbg">This is first h1 Tag </h2>
+    <h2 class= "redbg">This is first h1 Tag </h2>
+    <h2 class= "redbg">This is first h1 Tag </h2>
+
+    <h1>This is second H1 Tag </h1>
+    <h2 class= "redbg">This is a H2 Tag </h2>
+    <h2 class= "redbg">This is first h1 Tag </h2>
+    <h2 class= "redbg">This is first h1 Tag </h2>
+
+    <h1 id="changesclr"> This is 3rd h1 </h1>
+    <h2 class= "redbg">This is first h1 Tag </h2>
+    <h2 class= "redbg">This is first h1 Tag </h2>
+
+
+</body>

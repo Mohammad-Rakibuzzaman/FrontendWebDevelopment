@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        img.a {
+            width: 200px;
+            height: 400px;
+
+            object-fit: none;
+            /* object-fit: fill;  */
+            
+            /* it covers the real aspect ratio of the image that means original size of it and make it fully cover with the given any aspect ration height width */
+            /* also we have (cover) key for object-fit element. also others */
+            /* scale-down is smaller version of content or none */
+            
+            object-position: 45% 20%;
+            border: 5px solid red;
+            
+        
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+    
+    <!-- <img src="images/1f5680ed8608b2159b82bde8d634b4cf.jpg" alt=""> -->
+    <h2>The object-position Property</h2>
+
+    <p>Resize the image to fit its content box, and position the image 5px from the left and 10% from the top inside the content box:</p>
+    <img class="a" src="images/1f5680ed8608b2159b82bde8d634b4cf.jpg" alt="Paris" width="400" height="300">
+
+</body>
+</html>

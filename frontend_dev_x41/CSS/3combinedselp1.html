@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+    <!-- Combined selectors. a.descendant selector b.child selector(means that if there is
+         child div it wont chanage the child it only change upper div tag p attr )  -->
+
+    <style>
+        /* div h1{
+            color: orange;
+        } */
+
+        div > h1{
+            color: orange;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    
+    <!-- example of combined selectors -->
+    <!-- <div>
+        <h1> I am inside of div</h1>
+        <h1> Zaima loves to hangout with me</h1>
+        <div>
+            <h1>hey ratullll there is also zaaaaaaaaiiiiimaaa</h1>
+        </div>
+    </div>
+
+    <hr> -->
+
+    <!-- example of child combined selectors -->
+
+    <div>
+        <h1> I am inside of div</h1>
+        <h1> Zaima loves to hangout with me</h1>
+        <section>
+            <h1>hey ratullll there is also zaaaaaaaaiiiiimaaa</h1>
+        </section>
+        <!-- <div>
+            <h1>hey ratullll there is also zaaaaaaaaiiiiimaaa</h1>
+        </div> -->
+    </div>
+
+    <hr>
+
+    <h1>This is first H1 Tag </h1>
+    <h2 class= "redbg">This is first h1 Tag </h2>
+    <h1>This is second H1 Tag </h1>
+    <h2 class= "redbg">This is a H2 Tag </h2>
+
+    <h1 id="changesclr"> This is 3rd h1 </h1>
+
+
+</body>

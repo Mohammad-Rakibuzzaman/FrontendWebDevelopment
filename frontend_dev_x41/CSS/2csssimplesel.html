@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- There are 3 types of simple selector. tag / class/ id / Universal selector-->
+
+    <style>
+        h1 {
+            background-color: rgb(206, 228, 7);
+        }
+        
+        /* we use tag before tag selector */
+        h2 {
+            background-color: burlywood;
+        }
+
+        body {
+            background-color: lightblue;
+        }
+
+        /* we use . befor class selector */
+        .redbg {
+            background-color: aquamarine;
+        }
+
+        /* we use # before id selector */
+
+        #changeclr {
+            color: azure;
+        }
+
+        /* we use * before Universal selector */
+
+        /* because of using id our id class doent change. when we change our id class thats gonna change */
+        * {
+            color:rgb(0, 0, 0);
+        }
+
+    </style>
+</head>
+
+<body>
+    
+    <h1>This is first H1 Tag </h1>
+    <h2 class= "redbg">This is first h1 Tag </h2>
+    <h1>This is second H1 Tag </h1>
+    <h2 class= "redbg">This is a H2 Tag </h2>
+
+    <h1 id="changesclr"> This is 3rd h1 </h1>
+
+
+</body>
+
+</html>

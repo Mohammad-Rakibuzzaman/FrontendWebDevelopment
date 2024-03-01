@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .grid-container {
+            background-color: lightblue;
+            padding: 10px;
+            display: grid;
+            
+            grid-template-columns: repeat(3, 100px);
+            
+
+            grid-auto-rows: 100px;/* this is for overflow stops */
+            /* grid-template-columns: repeat(3, 1fr); */
+
+            grid-gap: 20px;
+            height: 100vh;
+        
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly; */
+            /* justify-content: start; */
+            /* justify-content: end; */
+
+
+            /* this is for changing position horizontly */
+            justify-content: center;
+    
+            /* this change content position vertically */
+            /* align-content: start; */
+            /* align-content: space-between; */
+            /* align-content: space-evenly; */
+            /* align-content: start; */
+            /* align-content: end; */
+
+            /* this is for changing position vertically*/
+            align-content: center;
+
+
+        }
+
+        .grid-item {
+            background-color: white;
+            border: 1px solid black;
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+
+
+
+    </style>
+
+
+
+</head>
+<body>
+
+    <div class="grid-container">
+        <!-- <div class="grid-item">1 start Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quidem saepe, similique exercitationem non minima iste quas eius quis iusto aliquid, optio praesentium atque veritatis quasi odio accusantium fugit officiis.</div>
+        <div class="grid-item">2 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum fugiat veritatis nesciunt ipsa aperiam eos hic molestias veniam culpa quibusdam doloribus, libero commodi earum numquam neque. Suscipit corporis officia illo?</div> -->
+        <div class="grid-item">1 </div>
+        <div class="grid-item">2 </div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+        <div class="grid-item">9</div>
+        <div class="grid-item">9</div>
+        <div class="grid-item">9</div>
+    </div>
+
+
+    
+</body>
+</html>

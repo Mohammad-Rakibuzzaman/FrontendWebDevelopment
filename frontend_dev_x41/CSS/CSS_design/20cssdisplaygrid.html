@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .grid-container {
+            background-color: lightblue;
+            padding: 20px;
+            display: grid;
+            /* grid-template-columns: 100px 100px;  */
+            /*   if want to repeat then> */
+            /* grid-template-columns: repeat(4, 1fr); */
+            grid-template-columns: repeat(3, 1fr);
+            /* grid-template-rows: 200px 200px 200px 200px; */
+            /* grid-template-rows: repeat(2, 200px); */
+
+            /* grid-auto-rows: 200px;
+            grid-template-rows: 300px; */
+
+            grid-auto-rows: minmax(200px, auto);/* this is for overflow stops */
+
+            /* grid-column-gap: 10px;
+            grid-row-gap: 10px; */
+
+            grid-gap: 20px;
+
+        
+
+
+        }
+
+        .grid-item {
+            background-color: white;
+            border: 1px solid black;
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+
+
+
+    </style>
+
+
+
+</head>
+<body>
+
+    <div class="grid-container">
+        <!-- <div class="grid-item">1 start Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quidem saepe, similique exercitationem non minima iste quas eius quis iusto aliquid, optio praesentium atque veritatis quasi odio accusantium fugit officiis.</div>
+        <div class="grid-item">2 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum fugiat veritatis nesciunt ipsa aperiam eos hic molestias veniam culpa quibusdam doloribus, libero commodi earum numquam neque. Suscipit corporis officia illo?</div> -->
+        <div class="grid-item">1 </div>
+        <div class="grid-item">2 </div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+        <div class="grid-item">9</div>
+        <div class="grid-item">9</div>
+        <div class="grid-item">9</div>
+    </div>
+
+
+    
+</body>
+</html>

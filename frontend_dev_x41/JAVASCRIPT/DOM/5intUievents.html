@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    
+    <style>
+        .completed{
+            text-decoration: line-through;
+            color: red;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <h1>Todo List</h1>
+    <ul>
+        <li>Buy Groceries</li>
+        <li>Do Laundry</li>
+        <li>Clean House</li>
+        <li>Buy meal</li>
+    </ul>
+
+    <script>
+        const listItems = document.querySelectorAll('li')
+
+        listItems.forEach(item => {
+            item.addEventListener('click', () => {
+                item.classList.toggle('completed')
+
+            })
+        });
+
+
+    </script>
+
+</body>
+</html>
